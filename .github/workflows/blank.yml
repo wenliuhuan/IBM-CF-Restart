@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '40 19 * * *'
+    - cron: '40 19 * * 1'
   watch:
     types: started
 
